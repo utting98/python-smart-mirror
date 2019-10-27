@@ -32,7 +32,7 @@ The current voice commands are as follows:
 
 -mirror play [name of song or youtube video], this will stream audio of the first result from your youtube search term.
 
--mirror [date] [event], this will add and event to the event list which will be displayed in the bottom right of the mirror window.
+-mirror [date] [event], this will add and event to the event list which will be displayed in the bottom right of the mirror window. For this command it is important that your wording is right, an example of how to say it is "mirror 27th October 2019 the readme was updated", do not say 'of' between the date and month say it exactly as it is written there, for the event it doesn't matter what you say that will be fine it's just the date has to be right. 
 
 -mirror calculate [simple calculation string], this will attempt to calculate what you have said and say the mathematical result back to you (note generally processable commands involve: plus, minus/subtract, divided by, times, to the power, square root but it can be a little temperamental if it mishears or you use another operator).
 
