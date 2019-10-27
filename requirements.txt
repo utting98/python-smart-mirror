@@ -1,0 +1,13 @@
+cmake
+geocoder
+bs4
+SpeechRecognition
+pafy
+python-vlc
+face_recognition
+opencv-python
+selenium
+pyttsx3
+pygame
+pyaudio
+youtube-dl
