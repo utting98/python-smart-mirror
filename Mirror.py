@@ -58,8 +58,13 @@ def suffix(d):
 
 #cut off the date suffix for comparing datetime objects and return datetime object in same format
 def custom_strptime(format,t):
-    t = t[0:2] + t[4:]
-    return datetime.strptime(t,'%d %B %Y')
+    try:
+        t = t[0:2] + t[4:]
+        date = datetime.strptime(t,'%d %B %Y')
+    except:
+        t = t[0] + t[3:]
+        date = datetime.strptime(t,'%d %B %Y')
+    return date
 
 #make a custom datetime object from the date string and suffix on date number
 def custom_strftime(format, t):
