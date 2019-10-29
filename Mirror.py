@@ -62,7 +62,7 @@ def custom_strptime(format,t):
         t = t[0:2] + t[4:]
         date = datetime.strptime(t,'%d %B %Y')
     except:
-        t = t[0] + t[3:]
+        t = t[0] + ' ' + t[2:]
         date = datetime.strptime(t,'%d %B %Y')
     return date
 
